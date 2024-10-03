@@ -19,10 +19,9 @@ export default function TopBar(){
             <SignOutButton redirectUrl="sign-in">
               <div className="flex text-light-1 cursor-pointer">
                 Logout
-                <Image src="@/public/logout.svg" alt="logout" height={28} width={28}></Image>
+                <Image src="/assets/logout.svg" alt="logout" height={28} width={28}></Image>
               </div>
             </SignOutButton>
-            
           </SignedIn>
         </div>
 
